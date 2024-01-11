@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Universal Selector */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing:border-box;
+}
+
+/* This is button Style */
+.main-btn{
+    padding:18px 32px;
+    color:#FFF;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+}
+.second-btn{
+    margin-left:30px;
+    padding:18px 32px;
+    color: #FD6E0A;
+    background-color:transparent;
+    border:1px solid #FD6E0A;
+    border-radius:5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* This is Style shareing */
+.orange{
+    color:#FD6E0A;
+}
+.Containar{
+    width: 100%;
+    max-width: 1920px;
+    margin:0 auto;
+}
+/* This is nav Style */
+nav{
+    display:flex;
+    width: 80%;
+    justify-content: space-between;
+    margin:auto;
+    align-items:center;
+    padding:50px 0px;
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin:0px 50px;
+}
+
+nav a{
+    text-decoration:none;
+    font-size: 20px;
+    color: #474747;
+    font-weight: 400;
+}
+
+nav .logo{
+    font-size:45px;
+    font-weight:800;
+    color:#181818;
+}
+
+
+/* nav style End */
+
+/* header style start */
+header{
+    background-color: #FFF8F3;
+    background-image:url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position:bottom right,top left;
+    position: relative;
+    height: 820px;
+}
+.header-continer{
+    display:flex;
+    width: 100%;
+    margin:auto;
+}
+.content{
+    width: 50%;
+}
+
+/* This header left side */
+
+.header-left{
+    margin-top:10%;
+    margin-left:10%;
+}
+.header-title{
+    font-size:45px;
+    font-weight:600;
+    color:#474747;
+}
+.header-heading{
+    font-size:85px;
+    font-weight:700;
+    color:#181818;
+    margin-bottom:20px;
+}
+.header-description{
+    font-size:18px;
+    font-weight: 400;
+    color:#757575;
+    line-height:30px;
+    margin-bottom:30px;
+}
+/*this is header right side- */
+
+.header-right img{
+    position:absolute;
+    right: 0;
+    bottom:0;
+} 
+/* main stying */
+
+/* section page style */
+.page{
+    width: 80%;
+    background-color: #FFF8F3;
+    margin:auto;
+    margin-top:130px;
+    border-radius:8px;
+}
+.page-content{
+    text-align:center;
+    padding:0px 150px;
+    padding-bottom: 100px;
+}
+.page-heading{
+    color:#181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align:center;
+    padding-top:100px;
+}
+.page-description{
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top:30px;
+    text-align: center;
+}
+
+/* This is info */
+.info-continer{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+.info-heading{
+    font-size:20px;
+    font-weight:400;
+    color:#757575;
+}
+.info-address{
+    font-size:20px;
+    font-weight:700;
+    color:#474747;
+}
+
+
+.skill-continer{
+    display:flex;
+    justify-content: space-around;
+    padding:30px;
+}
+.skill{
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-content{
+    padding:20px;
+}
+.skill-name{
+    color:#181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top:30px;
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top:30px;
+}
+
+
+.resume-continar{
+    display:flex;
+    justify-content: space-around;
+}
+.resume{
+    padding:20px;
+}
+
+.resume-heading{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.education{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top:30px;
+}
+.univer-company{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top:10px;
+}
+.exprience{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top:20px;
+    width: 500px;
+
+}
+hr{
+    margin-top: 20px;
+}
+.btn{
+    text-align: center;
+    margin-top:50px;
+}
+
+/* Footer style */
+footer{
+    background-color: #FFF8F3;
+    margin-top:130px;
+}
+.footer{
+    display:flex;
+    padding:130px 230px;
+}
+.footer-description{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-top:50px;
+}
+
+input,textarea{
+    display:block;
+    width:100%;
+    padding:18px 30px;
+    margin-top:24px;
+    outline:none;
+    border-radius:5px;
+    border:none;
+}
+textarea{
+    height: 180px fixed;
+}
+.input-name{
+    width:100%;
+}
+.side{
+    width:50%;
+}
+
+/* Media Quarry for small device */
+@media screen and (max-width:576px) {
+    nav li,ul{
+        margin:5px;
+        text-align: right;
+        align-items: normal;
+    }
+
+    .content, .page ,.header-right,.header-left, nav{
+        width: 100%;
+    }
+    header{
+        height: 100%;
+        background-image:url('../images/header_bg.png');
+    }
+    .header-continer{
+        flex-direction: column-reverse;
+    }
+
+    .header-right img{
+        width: 100%;
+        position: relative;
+    }
+    .header-heading{
+        margin-bottom:0;
+    }
+    .header-left,nav,.main-btn, .second-btn,.header-description,.footer{
+        margin: 0;
+        padding:10px;
+    }
+    .header-heading{
+        font-size: 40px;
+    }
+    .main-btn, .second-btn, .header-description,.page-description{
+        font-size: 16px;
+        padding: 5px 10px;
+        font-weight: 500;
+        text-align: justify;
+    }
+    .page-content{
+        padding:0;
+    }
+    .info,.skill{
+        margin-top: 10px;
+    }
+    .info-heading{
+        text-decoration: underline;
+    }
+
+    .info-continer{
+        flex-direction: column;
+    }
+    .skill-continer,.resume-continar,.footer{
+        flex-direction: column;
+    }
+    .side{
+        width: 100%;
+    }
+    .exprience{
+        width: 100%;
+        text-align: justify;
+    }
+}
